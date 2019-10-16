@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 25px;
+}
+
+.header-paragraph {
+  color: #8d9194;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 10%;
+  text-align: left;
+}
+
+.colored-section {
+  background-color: #b7e5be;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.dachsund {
+  margin-top: 80px;
+  width: 80%;
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features .fas {
+  color: #b7e5be;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#features .fas:hover {
+  color: #A4CEAB;
+}
+
+.feature-box {
+  padding: 6% 8%;
+}
+
+#testimonials {
+  background-color: #A4CEAB;
+  padding: 3% 8%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.3;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #b7e5be;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+.press-logo-2 {
+  width: 19%;
+  margin: 20px 20px 50px;
+}
+
+.press-logo-3 {
+  width: 17%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #A4CEAB;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#footer {
+  background-color: #fff;
+  padding-top: 3%;
+}
+
+.social-icon {
+  margin: 20px;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .dachsund {
+    display: none;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
+}
