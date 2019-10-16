@@ -1,1 +1,227 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>furrybnb</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c1c7463ad5.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/Dog-Face.png">
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">furrybnb</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">DOWNLOAD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-outline-light" href="">LOG IN</button>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Header -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <img class="dachsund" src="images/dachsund.png" alt="dachsund-image">
+        </div>
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">The perfect home awaits.</h1>
+          <p class="header-paragraph">
+            Vacations are for relaxation, not worrying about your dog sitter.
+          </p>
+          <button class="btn btn-dark btn-lg download-btn" type="button"><i class="fab fa-apple"></i> Download</button>
+          <button class="btn btn-outline-light btn-lg download-btn" type="button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Font Awesome Icons -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-check-circle"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-home"></i>
+          <h3 class="feature-title">Elite Homes</h3>
+          <p>We have the best homes for your dog.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-paw"></i>
+          <h3 class="feature-title">The best care provided.</h3>
+          <p>From treats to snuggles, your dog is in the best hands.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class=" testimonial-text">"I have been using furrybnb for years for my two furbabies. The sitter sends me daily pictures so I know they're in good hands."</h2>
+          <img class=" testimonial-img" src="images/man-img.jpg" alt="man-profile">
+          <em>Paul & Coco, Brooklyn</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"The sitters truly go above and beyond. From trimming her nails to taking her to the dog park, I never have to worry when I'm away."</h2>
+          <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Hannah & Cookie, Manhattan</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"I feel so comfortable leaving my doggy with any of the sitters provided. I have had nothing but good experiences with them."</h2>
+          <img class="testimonial-img" src="images/lady2-img.jpg" alt="lady-profile">
+          <em>Kaitlyn & Joy, Queens</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Pricing Plans -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Stay That Works For Your Pup</h2>
+    <p>From a couple of hours to a couple of nights, we've got it all.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Short Stay</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$15/hr</h2>
+            <p>Sitter for up to 5 hours</p>
+            <p>Dog walks</p>
+            <p>Endless playtime</p>
+            <button class="pricing-btn btn btn-outline-dark btn-lg btn-block" type="button">View Sitters</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Medium Stay</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$100/night</h2>
+            <p>Sitter for up to a week</p>
+            <p>Updates and pics sent to you</p>
+            <p>Everything from the short stay</p>
+            <button class="pricing-btn btn btn-outline-dark btn-lg btn-block" type="button">View Sitters</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Long Stay</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$85/night</h2>
+            <p>Sitter for over a week</p>
+            <p>Have a vet visit? No problem!</p>
+            <p>Everything from the medium stay</p>
+            <button class="pricing-btn btn btn-outline-dark btn-lg btn-block" type="button">View Sitters</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <div class="container-fluid">
+
+      <section class="colored-section" id="press">
+        <img class="press-logo" src="images/buzzfeed.png" alt="buzzfeed-logo">
+        <img class="press-logo" src="images/forbes.svg" alt="forbes-logo">
+        <img class="press-logo-2" src="images/businessinsider.png" alt="business-insider-logo">
+        <img class="press-logo-3" src="images/nyt.png" alt="nyt-logo">
+
+      </section>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+
+
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+
+      <p>© Copyright 2019 furrybnb</p>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
