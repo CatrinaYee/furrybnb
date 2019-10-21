@@ -151,6 +151,27 @@ p {
   margin: 20px;
 }
 
+@media (max-width: 1280px) {
+    .dachsund {
+        margin-top: 180px;
+    }
+    .big-heading {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1039px) {
+    .btn {
+        font-size: 0.8rem;
+    }
+    .dachsund {
+        margin-top: 150px;
+    }
+    .big-heading {
+        font-size: 2.8rem;
+    }
+}
+
 @media (max-width: 991px) {
   #title {
     text-align: center;
